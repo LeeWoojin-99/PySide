@@ -7,7 +7,11 @@ class MainWindow(QMainWindow):
     def __init__(self):
         super(MainWindow, self).__init__()
         # 상속해준 클래스(QMainWindow)의 생성자(__init__())를 실행하는 부분
+        # 상속한 클래스가 있는 대부분의 경우 상위 클래스에서 정의된 생성자를 실행해줘야 정상적으로 프로그램이 구동된다.
         #super().__init__()
+        # super의 괄호 안에 아무것도 쓰지 않아도 괜찮다.
+        # super()는 상위 클래스를 의미한다.
+        # super(현재 클래스명, self) : 현재 클래스의 첫 부모 클래스를 가리킨다.
 
         self.button = QPushButton(parent=self)
         # 기존의 코드 : button = QPushButton(parent = window)
