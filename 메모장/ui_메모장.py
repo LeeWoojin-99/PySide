@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file '메모장ZoTrbQ.ui'
+## Form generated from reading UI file '메모장ohifyO.ui'
 ##
 ## Created by: Qt User Interface Compiler version 6.1.0
 ##
@@ -17,7 +17,8 @@ class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         if not MainWindow.objectName():
             MainWindow.setObjectName(u"MainWindow")
-        MainWindow.resize(700, 500)
+        MainWindow.resize(846, 622)
+        MainWindow.setMaximumSize(QSize(1053, 741))
         self.action = QAction(MainWindow)
         self.action.setObjectName(u"action")
         self.action_2 = QAction(MainWindow)
@@ -32,12 +33,12 @@ class Ui_MainWindow(object):
         self.actionghkrreogkrl_cntrh.setObjectName(u"actionghkrreogkrl_cntrh")
         self.actionn = QAction(MainWindow)
         self.actionn.setObjectName(u"actionn")
-        self.new_window = QAction(MainWindow)
-        self.new_window.setObjectName(u"new_window")
-        self.actione_2 = QAction(MainWindow)
-        self.actione_2.setObjectName(u"actione_2")
-        self.actione_3 = QAction(MainWindow)
-        self.actione_3.setObjectName(u"actione_3")
+        self.action_W = QAction(MainWindow)
+        self.action_W.setObjectName(u"action_W")
+        self.action_O = QAction(MainWindow)
+        self.action_O.setObjectName(u"action_O")
+        self.action_S = QAction(MainWindow)
+        self.action_S.setObjectName(u"action_S")
         self.actione_4 = QAction(MainWindow)
         self.actione_4.setObjectName(u"actione_4")
         self.actione_5 = QAction(MainWindow)
@@ -53,13 +54,14 @@ class Ui_MainWindow(object):
         self.gridLayout.setObjectName(u"gridLayout")
         self.plainTextEdit = QPlainTextEdit(self.centralwidget)
         self.plainTextEdit.setObjectName(u"plainTextEdit")
+        self.plainTextEdit.setMaximumSize(QSize(782, 539))
 
         self.gridLayout.addWidget(self.plainTextEdit, 0, 0, 1, 1)
 
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QMenuBar(MainWindow)
         self.menubar.setObjectName(u"menubar")
-        self.menubar.setGeometry(QRect(0, 0, 700, 22))
+        self.menubar.setGeometry(QRect(0, 0, 846, 22))
         self.menu_F = QMenu(self.menubar)
         self.menu_F.setObjectName(u"menu_F")
         self.menu_E = QMenu(self.menubar)
@@ -83,9 +85,9 @@ class Ui_MainWindow(object):
         self.menubar.addAction(self.menu_V.menuAction())
         self.menubar.addAction(self.menu_H.menuAction())
         self.menu_F.addAction(self.actionn)
-        self.menu_F.addAction(self.new_window)
-        self.menu_F.addAction(self.actione_2)
-        self.menu_F.addAction(self.actione_3)
+        self.menu_F.addAction(self.action_W)
+        self.menu_F.addAction(self.action_O)
+        self.menu_F.addAction(self.action_S)
         self.menu_F.addAction(self.actione_4)
         self.menu_F.addSeparator()
         self.menu_F.addAction(self.actione_5)
@@ -115,17 +117,17 @@ class Ui_MainWindow(object):
 #if QT_CONFIG(shortcut)
         self.actionn.setShortcut(QCoreApplication.translate("MainWindow", u"Ctrl+N", None))
 #endif // QT_CONFIG(shortcut)
-        self.new_window.setText(QCoreApplication.translate("MainWindow", u"\uc0c8 \ucc3d(W)", None))
+        self.action_W.setText(QCoreApplication.translate("MainWindow", u"\uc0c8 \ucc3d(W)", None))
 #if QT_CONFIG(shortcut)
-        self.new_window.setShortcut(QCoreApplication.translate("MainWindow", u"Ctrl+W", None))
+        self.action_W.setShortcut(QCoreApplication.translate("MainWindow", u"Ctrl+W", None))
 #endif // QT_CONFIG(shortcut)
-        self.actione_2.setText(QCoreApplication.translate("MainWindow", u"\uc5f4\uae30(O)...", None))
+        self.action_O.setText(QCoreApplication.translate("MainWindow", u"\uc5f4\uae30(O)...", None))
 #if QT_CONFIG(shortcut)
-        self.actione_2.setShortcut(QCoreApplication.translate("MainWindow", u"Ctrl+O", None))
+        self.action_O.setShortcut(QCoreApplication.translate("MainWindow", u"Ctrl+O", None))
 #endif // QT_CONFIG(shortcut)
-        self.actione_3.setText(QCoreApplication.translate("MainWindow", u"\uc800\uc7a5(S)", None))
+        self.action_S.setText(QCoreApplication.translate("MainWindow", u"\uc800\uc7a5(S)", None))
 #if QT_CONFIG(shortcut)
-        self.actione_3.setShortcut(QCoreApplication.translate("MainWindow", u"Ctrl+S", None))
+        self.action_S.setShortcut(QCoreApplication.translate("MainWindow", u"Ctrl+S", None))
 #endif // QT_CONFIG(shortcut)
         self.actione_4.setText(QCoreApplication.translate("MainWindow", u"\ub2e4\ub978 \uc774\ub984\uc73c\ub85c \uc800\uc7a5(A)...", None))
 #if QT_CONFIG(shortcut)

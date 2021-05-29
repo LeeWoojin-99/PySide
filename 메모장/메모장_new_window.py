@@ -13,8 +13,8 @@ class MainWindow1(QMainWindow, Ui_MainWindow):
         # 상위 클래스의 생성자 실행
         self.setupUi(self)
 
-        self.new_window.triggered.connect(self.add_window)
-        # new_window 객체의 트리거가 발생되면 해당 함수를 실행한다.
+        self.action_W.triggered.connect(self.add_window)
+        # action_W 위젯의 트리거가 발생되면 해당 함수를 실행한다.
         self.windows = []
 
     def add_window(self):
