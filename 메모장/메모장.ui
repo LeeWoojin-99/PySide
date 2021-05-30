@@ -61,7 +61,7 @@
     <addaction name="actione_5"/>
     <addaction name="actione_6"/>
     <addaction name="separator"/>
-    <addaction name="actione_7"/>
+    <addaction name="actione_X"/>
    </widget>
    <widget class="QMenu" name="menu_E">
     <property name="title">
@@ -186,7 +186,7 @@
     <string>Ctrl+P</string>
    </property>
   </action>
-  <action name="actione_7">
+  <action name="actione_X">
    <property name="text">
     <string>끝내기(X)</string>
    </property>
@@ -196,5 +196,22 @@
   </action>
  </widget>
  <resources/>
- <connections/>
+ <connections>
+  <connection>
+   <sender>action_W</sender>
+   <signal>triggered()</signal>
+   <receiver>MainWindow</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>422</x>
+     <y>310</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>422</x>
+     <y>310</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
 </ui>
